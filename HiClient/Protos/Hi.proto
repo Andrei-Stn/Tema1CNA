@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "Tema1.Protos";
+
+package hi;
+
+service Hi{
+	rpc SayHi (HiRequest) returns (HiReply);
+}
+
+message HiRequest{
+	string name = 1;
+}
+
+message HiReply{
+
+}

@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/Hi.cs \
+obj\Debug\netcoreapp3.1/HiGrpc.cs: Protos/Hi.proto
